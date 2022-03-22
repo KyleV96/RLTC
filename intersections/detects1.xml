@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-18 20:34:21 by Eclipse SUMO netedit Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\kylev\OneDrive\Desktop\Deep-QLearning-Agent-for-Traffic-Signal-Control-master\TLCS\intersection\environment.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\kylev\OneDrive\Desktop\Deep-QLearning-Agent-for-Traffic-Signal-Control-master\TLCS\intersection\environment.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\kylev\OneDrive\Desktop\Deep-QLearning-Agent-for-Traffic-Signal-Control-master\TLCS\intersection\detects1.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="0" lane="S2TL_3" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="1" lane="S2TL_3" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="10" lane="S2TL_2" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="11" lane="S2TL_2" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="12" lane="S2TL_2" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="13" lane="S2TL_2" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="14" lane="S2TL_2" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="15" lane="S2TL_2" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="16" lane="S2TL_2" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="17" lane="S2TL_2" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="18" lane="S2TL_2" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="19" lane="S2TL_2" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="20" lane="S2TL_1" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="21" lane="S2TL_1" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="22" lane="S2TL_1" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="23" lane="S2TL_1" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="24" lane="S2TL_1" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="25" lane="S2TL_1" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="26" lane="S2TL_1" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="27" lane="S2TL_1" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="28" lane="S2TL_1" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="29" lane="S2TL_1" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="2" lane="S2TL_3" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="3" lane="S2TL_3" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="4" lane="S2TL_3" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="5" lane="S2TL_3" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="6" lane="S2TL_3" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="7" lane="S2TL_3" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="8" lane="S2TL_3" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="9" lane="S2TL_3" pos="0.00" freq="1.00" file="out.xml"/>
+
+    <e1Detector id="30" lane="N2TL_3" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="31" lane="N2TL_3" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="40" lane="N2TL_2" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="41" lane="N2TL_2" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="42" lane="N2TL_2" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="43" lane="N2TL_2" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="44" lane="N2TL_2" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="45" lane="N2TL_2" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="46" lane="N2TL_2" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="47" lane="N2TL_2" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="48" lane="N2TL_2" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="49" lane="N2TL_2" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="50" lane="N2TL_1" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="51" lane="N2TL_1" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="52" lane="N2TL_1" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="53" lane="N2TL_1" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="54" lane="N2TL_1" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="55" lane="N2TL_1" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="56" lane="N2TL_1" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="57" lane="N2TL_1" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="58" lane="N2TL_1" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="59" lane="N2TL_1" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="32" lane="N2TL_3" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="33" lane="N2TL_3" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="34" lane="N2TL_3" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="35" lane="N2TL_3" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="36" lane="N2TL_3" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="37" lane="N2TL_3" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="38" lane="N2TL_3" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="39" lane="N2TL_3" pos="0.00" freq="1.00" file="out.xml"/>
+
+    <e1Detector id="60" lane="E2TL_3" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="61" lane="E2TL_3" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="70" lane="E2TL_2" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="71" lane="E2TL_2" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="72" lane="E2TL_2" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="73" lane="E2TL_2" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="74" lane="E2TL_2" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="75" lane="E2TL_2" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="76" lane="E2TL_2" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="77" lane="E2TL_2" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="78" lane="E2TL_2" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="79" lane="E2TL_2" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="80" lane="E2TL_1" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="81" lane="E2TL_1" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="82" lane="E2TL_1" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="83" lane="E2TL_1" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="84" lane="E2TL_1" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="85" lane="E2TL_1" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="86" lane="E2TL_1" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="87" lane="E2TL_1" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="88" lane="E2TL_1" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="89" lane="E2TL_1" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="62" lane="E2TL_3" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="63" lane="E2TL_3" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="64" lane="E2TL_3" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="65" lane="E2TL_3" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="66" lane="E2TL_3" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="67" lane="E2TL_3" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="68" lane="E2TL_3" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="69" lane="E2TL_3" pos="0.00" freq="1.00" file="out.xml"/>
+
+    <e1Detector id="90" lane="W2TL_3" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="91" lane="W2TL_3" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="100" lane="W2TL_2" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="101" lane="W2TL_2" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="102" lane="W2TL_2" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="103" lane="W2TL_2" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="104" lane="W2TL_2" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="105" lane="W2TL_2" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="106" lane="W2TL_2" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="107" lane="W2TL_2" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="108" lane="W2TL_2" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="109" lane="W2TL_2" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="110" lane="W2TL_1" pos="748.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="111" lane="W2TL_1" pos="741.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="112" lane="W2TL_1" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="113" lane="W2TL_1" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="114" lane="W2TL_1" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="115" lane="W2TL_1" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="116" lane="W2TL_1" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="117" lane="W2TL_1" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="118" lane="W2TL_1" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="119" lane="W2TL_1" pos="0.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="92" lane="W2TL_3" pos="734.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="93" lane="W2TL_3" pos="727.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="94" lane="W2TL_3" pos="715.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="95" lane="W2TL_3" pos="695.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="96" lane="W2TL_3" pos="655.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="97" lane="W2TL_3" pos="595.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="98" lane="W2TL_3" pos="350.00" freq="1.00" file="out.xml"/>
+    <e1Detector id="99" lane="W2TL_3" pos="0.00" freq="1.00" file="out.xml"/>
+
+   
+</additional>

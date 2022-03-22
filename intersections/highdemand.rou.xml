@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-16 09:02:04 by Eclipse SUMO netedit Version 1.11.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="E_N" begin="0.00" departLane="random" departSpeed="10.00" from="E2TL" to="TL2N" end="3600.00" vehsPerHour="115.00"/>
+    <flow id="E_S" begin="0.00" departLane="random" departSpeed="10.00" from="E2TL" to="TL2S1" end="3600.00" vehsPerHour="79.00"/>
+    <flow id="E_W" begin="0.00" departLane="random" departSpeed="10.00" from="E2TL" to="TL2W2" end="3600.00" vehsPerHour="649.00"/>
+    <flow id="N_E" begin="0.00" departLane="random" departSpeed="10.00" from="N2TL1" to="TL2E" end="3600.00" vehsPerHour="178.00"/>
+    <flow id="N_S" begin="0.00" departLane="random" departSpeed="10.00" from="N2TL1" to="TL2S1" end="3600.00" vehsPerHour="636.04"/>
+    <flow id="N_W" begin="0.00" departLane="random" departSpeed="10.00" from="N2TL1" to="TL2W2" end="3600.00" vehsPerHour="182.00"/>
+    <flow id="S_E" begin="0.00" departLane="random" departSpeed="10.00" from="S2TL" to="TL2E" end="3600.00" vehsPerHour="75.00"/>
+    <flow id="S_N" begin="0.00" departLane="random" departSpeed="10.00" from="S2TL" to="TL2N" end="3600.00" vehsPerHour="636.04"/>
+    <flow id="S_W" begin="0.00" departLane="random" departSpeed="10.00" from="S2TL" to="TL2W2" end="3600.00" vehsPerHour="237.00"/>
+    <flow id="W_E" begin="0.00" departLane="random" departSpeed="10.00" from="W2TL2" to="TL2E" end="3600.00" vehsPerHour="586.99"/>
+    <flow id="W_N" begin="0.00" departLane="random" departSpeed="10.00" from="W2TL2" to="TL2N" end="3600.00" vehsPerHour="264.01"/>
+    <flow id="W_S" begin="0.00" departLane="random" from="W2TL2" to="TL2S1" end="3600.00" vehsPerHour="99.00"/>
+</routes>
